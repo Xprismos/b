@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .header{
+        display: flex;
+      padding-left: 10px;
+        background-color: brown;
+       justify-content: space-between;
+      align-items: center;
+        width: 100%;
+        color: white;
+    }
+
+    .block a {
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .block img {
+        display: none;
+    }
+
+    .mid{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .midtext{
+        padding-left: 10px;
+        background-color: white;
+        width: 50%;
+        justify-content: space-around;
+        font-size: 50px;
+    }
+
+    .midtext h1{
+        color: brown;
+
+    }
+
+    .mid img{
+        width: 50%;
+        height: 70%;
+    }
+
+
+    @media screen and (max-width: 900px) {
+
+        body{
+        padding: 0;
+        margin: 0;
+      
+        
+    }
+
+    .header{
+        display: flex;
+      padding-left: 10px;
+        background-color: brown;
+       justify-content: space-between;
+       align-items: center;
+        width: 100%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .block a {
+        display: none;
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .block img {
+        display: flex;
+        width: 100px;
+        height: 100px;
+    }
+
+    .mid{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       align-items: center;
+    
+
+    }
+
+    .midtext{
+        padding-left: 10px;
+        background-color: white;
+        width: 100%;
+        height: 300px;
+        font-size: 20px;
+       
+        justify-content: stretch;
+        align-items: center;
+    }
+
+
+    .midtext h1{
+        color: brown;
+
+    }
+
+    .mid img{
+        width: 100%;
+       
+        
+    }
+
+
+    }
+
+
+
+</style>
+
+
+<body>
+
+    <div class="header">
+
+        <div class="block a"><h1>Ewa agoyin.com</h1></div>
+        <div class="block b">
+        
+            <a href="index.html">Home</a>
+            <a href="index.html">About</a>
+            <a href="index.html">Store Location</a>
+            <img src="b.png" alt="" sizes="" srcset="">
+           
+           
+            
+            
+        </div>
+
+    </div>
+
+    <div class="mid"> 
+        <div class="midtext">
+            <h1> BUY HOT BEANS WITH BREAD</h1>
+            <h3>anytime,anywhere...</h3>
+        </div>
+
+        <img src="e.png" alt="" srcset="">
+       
+    </div>
+
+</body>
+</html>
